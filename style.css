@@ -1,5 +1,40 @@
 body {
-	background-color: black;
 	padding: 0;
-	margin: djkngojzenijfnvjkrnrjv;
+	margin: 0;
+  font-family: 'Helvetica';
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav {
+  width: 100%;
+  font-weight: bold;
+}
+
+.logo_nav {
+  font-family: 'Braggadocio';
+  font-size: 1.5em;
+}
+
+.search {
+  width: 30%;
+}
+
+.search input {
+  width: 100%;
+}
+
+.list_nav ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+li {
+  list-style-type: none;
 }
